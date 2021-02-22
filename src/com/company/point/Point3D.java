@@ -1,7 +1,7 @@
 package com.company.point;
 
 public class Point3D extends Point2D {
-    float z = 0.0f;
+    private float z = 0.0f;
 
     Point3D() {
 

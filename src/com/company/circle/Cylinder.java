@@ -1,5 +1,6 @@
 package com.company.circle;
 
+
 public class Cylinder extends Circle {
     private double height = 5.0;
 
@@ -26,7 +27,7 @@ public class Cylinder extends Circle {
 
     @Override
     public String toString() {
-        return "A Cylinder with height ="
+        return "a Cylinder with height ="
                 + getHeight()
                 + ", which is a subclass of "
                 + super.toString();

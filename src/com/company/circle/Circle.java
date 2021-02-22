@@ -40,9 +40,9 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "A Circle with radius="
+        return "a Circle with radius = "
                 + getRadius()
-                + " and color "
+                + " and color: "
                 + getColor();
     }
 
